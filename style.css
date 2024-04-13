@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;   
+    background-color: grey;
+}
+main {
+    border: 10px solid black;
+    max-width: 50%;
+    min-width: 50%;
+    height: auto;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 25px;
+}
+.divider {
+    border: 3px solid darkblue;
+    max-width: 50%;
+    margin: auto;
+}
+ul.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;;
+}
+ul.list a {
+    font-size: 20px;
+}
