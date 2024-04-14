@@ -21,10 +21,16 @@ body {
 #home-main {
     text-align: center;
 }
-ul, ol {
+ul {
     list-style-type: none;
     padding: 0;
     margin: 0 auto;
+}
+ol {
+    display: table;
+    list-style-position: outside;
+    margin: 0 auto;
+    text-align: left !important;
 }
 ul a {
     font-size: 20px;
@@ -50,5 +56,5 @@ ul a {
 #description {
     padding: 0 5em 0 5em;
     margin: 0 auto -20px;
-    text-align: justify;
+    text-align: center;
 }
